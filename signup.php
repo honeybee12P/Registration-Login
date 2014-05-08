@@ -79,7 +79,7 @@ $(document).ready(
 <input type="text"  name="t6" size="30" value="<?php if(isset($_POST['t6']) && $v7==1){echo $_POST['t6'];} else {echo "";}?>"><span class="error"><?php echo $error_insti;?></span></p>
 <p><span class="error">* required field.</span></p>
 <p><input type="submit" name="Submit" value="Submit" /></p>
-<p>Are you already a user of CYB? Login<p>
+<p>Are you already a user ? Login<p>
 <a href="login.php">Login</a>
 </form>
 </body>
